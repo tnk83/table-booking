@@ -1,8 +1,11 @@
+import "../styles/Footer.css";
+
 function Footer() {
     return (
-        console.log ("footer")
+        <div className="footer">
+            <p>Copyright by tnk83 @ 2023</p>
+        </div>
     );
 };
-
 
 export default Footer;
