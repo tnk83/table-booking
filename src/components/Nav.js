@@ -12,23 +12,23 @@ function Nav() {
             alt="Little Lemon logo"
         />
         <ul>
-          <li className="active">
-            <Link to="/">Home</Link>
+          <li>
+            <Link className="navbar-item" to="/">Home</Link>
           </li>
-          <li className="navbar-items">
-            <Link to="/about">About</Link>
+          <li>
+            <Link className="navbar-item" to="/about">About</Link>
           </li>
-          <li className="navbar-items">
-            <Link to="/menu">Menu</Link>
+          <li>
+            <Link className="navbar-item" to="/menu">Menu</Link>
           </li>
-          <li className="navbar-items">
-            <Link to="/reservations">Reservations</Link>
+          <li>
+            <Link className="navbar-item" to="/reservations">Reservations</Link>
           </li>
-          <li className="navbar-items">
-            <Link to="/order-online">Order Online</Link>
+          <li>
+            <Link className="navbar-item" to="/order-online">Order Online</Link>
           </li>
-          <li className="navbar-items">
-            <Link to="/login">Login</Link>
+          <li>
+            <Link className="navbar-item" to="/login">Login</Link>
           </li>
         </ul>
       </nav>

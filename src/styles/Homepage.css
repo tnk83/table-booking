@@ -1,0 +1,46 @@
+.hero-container  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #495E57;
+  height: 400px;
+  margin-bottom: 100px;
+}
+
+.hero-text {
+  width: 100px;
+}
+
+.hero-image img{
+  border-radius: 16px;
+  width: 300px;
+}
+
+.high {
+  display: block;
+  text-align: center;
+}
+
+.high h1 {
+  font-size: 64px;
+}
+
+.high-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 100px;
+  margin: 2% 70px;
+}
+
+.st {
+  background-color: blue;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.nd {
+  background-color: green;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}

@@ -3,29 +3,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
-  padding: 0 1rem;
-  margin: 2rem;
+  padding: 2% 4.5rem;
+  margin: 0;
+  gap: 1rem;
+  width: auto;
 }
 
 .navbar ul {
   padding: 0;
-  margin: 0;
+  margin: 5px 10px;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.navbar a {
+.navbar-item {
   color: #000000;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
-.navbar li.active {
-  color: #0000ff;
+.navbar-item:hover {
+  color: #2a8b03;
 }
 
-.navbar li:hover {
-  background-color: #2a8b03;
+.navbar-item:active {
+  color: #ff0000;
 }
+
+

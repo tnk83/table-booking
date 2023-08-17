@@ -6,10 +6,12 @@ import Menu from "./pages/Menu";
 import Reservations from "./pages/Reservations";
 import OrderOnline from "./pages/OrderOnline";
 import Login from "./pages/Login";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div>
+      <Nav />
       <Routes>
           <Route path="/" element= {<Homepage />} />
           <Route path="/about" element= {<About />} />
