@@ -3,10 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  flex-wrap: wrap;
   padding: 2% 4.5rem;
   margin: 0;
-  width: auto;
 }
 
 ul {
@@ -26,7 +25,9 @@ li {
 .navbar-item {
   color: #000000;
   text-decoration: none;
+  font-family: 'Karla', sans-serif;
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .navbar-item:hover {
