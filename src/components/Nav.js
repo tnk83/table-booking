@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg";
+import hamburger from "../assets/hamburger.svg"
 import "../styles/Nav.css";
 import { Link } from 'react-router-dom';
 
@@ -11,7 +12,11 @@ function Nav() {
             src={logo}
             alt="Little Lemon logo"
         />
-        <ul>
+        <img className="hamburger"
+          src={hamburger}
+          alt="Hamburger menu"
+        />
+        <ul className="horizontal-menu">
           <li>
             <Link className="navbar-item" to="/">Home</Link>
           </li>

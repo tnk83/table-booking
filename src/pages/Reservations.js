@@ -1,9 +1,9 @@
-import Nav from "../components/Nav";
+import BookingForm from "../components/BookingForm";
 
 function Reservations() {
   return (
     <div>
-      <h1>Reservations</h1>
+      <BookingForm />
     </div>
   );
 };

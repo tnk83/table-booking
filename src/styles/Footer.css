@@ -1,9 +1,44 @@
-.footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 18rem;
+.footer-container{
+  display: grid;
+  height: fit-content;
   background-color: #495E57;
-  font-size: 20px;
+  padding: 2rem 12%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4 1fr);
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 2rem;
+  text-align: left;
+}
+
+@media (max-width: 430px) {
+  .doormat {
+    display: none;
+  }
+}
+
+.footer-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 8px;
+}
+
+.content h5 {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.25rem;
+}
+
+.content li {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
 }
 

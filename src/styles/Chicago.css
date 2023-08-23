@@ -1,0 +1,80 @@
+.container-chicago {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffffff;
+  height: 500px;
+  padding: 2rem 12%;
+}
+
+.text-chicago {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: max-content;
+}
+
+.text-chicago > h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 64px;
+  color: #F4CE14;
+}
+
+.text-chicago > h3 {
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  margin: -1rem 0 1rem 0;
+}
+
+.text-chicago > p {
+  width: 390px;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.container-image {
+  display: inline-flex;
+}
+
+.image-box1, .image-box2 {
+  height: 24rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.image-mario1, .image-mario2 {
+  height: 24rem;
+}
+
+.image-box2 {
+  translate: -20% -10%;
+}
+
+@media (max-width: 1200px) {
+  .container-chicago {
+    height: fit-content;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+  }
+  .text-chicago {
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .image-box2 {
+    translate: 0% 0%;
+  }
+}
+
+
+
